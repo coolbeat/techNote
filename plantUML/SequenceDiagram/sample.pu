@@ -1,0 +1,68 @@
+@startuml
+
+' 出力サイズを変更できる
+scale 500*700
+
+' オブジェクトの割当
+actor ユーザー
+
+
+' シーケンス図のサンプル
+' タイトル
+title シーケンス図記述
+
+' シーケンス図 開始
+ユーザー -[#red]> iphone: 画面表示
+activate iphone #FFBBBB
+
+' ->>とすると非同期
+iphone -[#blue]>> server:　トレンドAPI
+activate server
+
+' ノートの挿入 rightとすると右にいれられる
+note left: this is a first note
+
+database BONNE_DB
+server -[#green]> BONNE_DB : DBAccess
+activate BONNE_DB
+
+BONNE_DB --> server
+deactivate BONNE_DB
+
+' 条件文alt
+alt 成功
+server --> iphone: 変換
+else 失敗
+server --> iphone: status1= 変換
+end
+' destroyはライフラインが終わったこを示す
+destroy server
+
+' 自身の処理
+iphone->iphone: 変換内部メモリ.\n格納する
+
+' LOOP　条件分岐
+loop 100回
+iphone -> iphone: +1
+end
+
+' opt　条件を満たす
+opt  未ログイン
+iphone -> iphone: -1
+end
+
+'　並列処理
+par
+iphone -> ユーザー : 振動
+else
+iphone -> ユーザー : 音声
+end
+
+' refテスト
+ref over iphone,ユーザー  : 処理
+
+' 最後にもどす
+ユーザー <-- iphone: 表示
+deactivate iphone
+
+@enduml

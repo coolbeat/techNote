@@ -31,4 +31,5 @@ option+control+p
 - ファイル拡張子
 .puファイル
 - 画像ファイルpng出力方法
+puファイルがあるところと、plauntuml.jaｒを指定
 java  -Dfile.encoding=UTF-8 -jar ~/Downloads/plantuml.jar ./*pu -o out
