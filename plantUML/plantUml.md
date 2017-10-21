@@ -7,7 +7,7 @@ Markdownのようにテキストエディタで記述できる
 ## インストール方法
 ### 1.MAC環境
 - mac これでうまくいく
-  - PlantUMLをAtomで使ってみよう！泣きながらシーケンス図
+  - PlantUMLをAtomで使ってみよう！泣きながらシーケンス図  
   http://hige-sun.net/plantuml-on-atom/
 
 - macでクラス図
