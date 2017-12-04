@@ -1,0 +1,18 @@
+データ保存
+
+
+let path: String = NSSearchPathForDirectoriesInDomains(.ApplicationSupportDirectory, .UserDomainMask, true)[0]
+print(path)
+// /Users/xyk/Library/Developer/CoreSimulator/Devices/B9D56604-82C8-4752-A4D8-51292D8F625A/data/Containers/Data/Application/9E25C963-2F4B-4985-BA9B-B9DADF52E9EC/Library/Application Support
+
+// または
+let path: String = NSHomeDirectory() + "/Library/Application Support"
+
+// または
+let path: NSURL = NSFileManager.defaultManager().URLsForDirectory(.ApplicationSupportDirectory, inDomains: .UserDomainMask)[0]
+
+
+データ保存
+
+http://skygrid.co.jp/chiebukuro/アプリ内にディレクトリの作成と削除やファイル/
+
