@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE8D58C8202717F000E92684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8D58C7202717F000E92684 /* AppDelegate.swift */; };
+		EE8D58CA202717F000E92684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8D58C9202717F000E92684 /* ViewController.swift */; };
+		EE8D58CF202717F000E92684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8D58CE202717F000E92684 /* Assets.xcassets */; };
+		EE8D58D2202717F000E92684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8D58D0202717F000E92684 /* LaunchScreen.storyboard */; };
+		EE8D58DD202717F100E92684 /* SapleCostControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8D58DC202717F100E92684 /* SapleCostControlTests.swift */; };
+		EE8D58E8202717F100E92684 /* SapleCostControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8D58E7202717F100E92684 /* SapleCostControlUITests.swift */; };
+		EE8D58F8202745E400E92684 /* TextPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8D58F7202745E300E92684 /* TextPicker.swift */; };
+		EE8D58FA2027460A00E92684 /* TextPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8D58F92027460A00E92684 /* TextPickerDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE8D58D9202717F100E92684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE8D58BC202717F000E92684 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE8D58C3202717F000E92684;
+			remoteInfo = SapleCostControl;
+		};
+		EE8D58E4202717F100E92684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE8D58BC202717F000E92684 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE8D58C3202717F000E92684;
+			remoteInfo = SapleCostControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE8D58C4202717F000E92684 /* SapleCostControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SapleCostControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8D58C7202717F000E92684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE8D58C9202717F000E92684 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE8D58CE202717F000E92684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE8D58D1202717F000E92684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE8D58D3202717F000E92684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8D58D8202717F100E92684 /* SapleCostControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SapleCostControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8D58DC202717F100E92684 /* SapleCostControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SapleCostControlTests.swift; sourceTree = "<group>"; };
+		EE8D58DE202717F100E92684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8D58E3202717F100E92684 /* SapleCostControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SapleCostControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8D58E7202717F100E92684 /* SapleCostControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SapleCostControlUITests.swift; sourceTree = "<group>"; };
+		EE8D58E9202717F100E92684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8D58F7202745E300E92684 /* TextPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPicker.swift; sourceTree = "<group>"; };
+		EE8D58F92027460A00E92684 /* TextPickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPickerDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE8D58C1202717F000E92684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8D58D5202717F100E92684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8D58E0202717F100E92684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE8D58BB202717F000E92684 = {
+			isa = PBXGroup;
+			children = (
+				EE8D58C6202717F000E92684 /* SapleCostControl */,
+				EE8D58DB202717F100E92684 /* SapleCostControlTests */,
+				EE8D58E6202717F100E92684 /* SapleCostControlUITests */,
+				EE8D58C5202717F000E92684 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE8D58C5202717F000E92684 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE8D58C4202717F000E92684 /* SapleCostControl.app */,
+				EE8D58D8202717F100E92684 /* SapleCostControlTests.xctest */,
+				EE8D58E3202717F100E92684 /* SapleCostControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE8D58C6202717F000E92684 /* SapleCostControl */ = {
+			isa = PBXGroup;
+			children = (
+				EE8D58C7202717F000E92684 /* AppDelegate.swift */,
+				EE8D58C9202717F000E92684 /* ViewController.swift */,
+				EE8D58CE202717F000E92684 /* Assets.xcassets */,
+				EE8D58D0202717F000E92684 /* LaunchScreen.storyboard */,
+				EE8D58D3202717F000E92684 /* Info.plist */,
+				EE8D58F7202745E300E92684 /* TextPicker.swift */,
+				EE8D58F92027460A00E92684 /* TextPickerDelegate.swift */,
+			);
+			path = SapleCostControl;
+			sourceTree = "<group>";
+		};
+		EE8D58DB202717F100E92684 /* SapleCostControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE8D58DC202717F100E92684 /* SapleCostControlTests.swift */,
+				EE8D58DE202717F100E92684 /* Info.plist */,
+			);
+			path = SapleCostControlTests;
+			sourceTree = "<group>";
+		};
+		EE8D58E6202717F100E92684 /* SapleCostControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE8D58E7202717F100E92684 /* SapleCostControlUITests.swift */,
+				EE8D58E9202717F100E92684 /* Info.plist */,
+			);
+			path = SapleCostControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE8D58C3202717F000E92684 /* SapleCostControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8D58EC202717F100E92684 /* Build configuration list for PBXNativeTarget "SapleCostControl" */;
+			buildPhases = (
+				EE8D58C0202717F000E92684 /* Sources */,
+				EE8D58C1202717F000E92684 /* Frameworks */,
+				EE8D58C2202717F000E92684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SapleCostControl;
+			productName = SapleCostControl;
+			productReference = EE8D58C4202717F000E92684 /* SapleCostControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE8D58D7202717F100E92684 /* SapleCostControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8D58EF202717F100E92684 /* Build configuration list for PBXNativeTarget "SapleCostControlTests" */;
+			buildPhases = (
+				EE8D58D4202717F100E92684 /* Sources */,
+				EE8D58D5202717F100E92684 /* Frameworks */,
+				EE8D58D6202717F100E92684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE8D58DA202717F100E92684 /* PBXTargetDependency */,
+			);
+			name = SapleCostControlTests;
+			productName = SapleCostControlTests;
+			productReference = EE8D58D8202717F100E92684 /* SapleCostControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE8D58E2202717F100E92684 /* SapleCostControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8D58F2202717F100E92684 /* Build configuration list for PBXNativeTarget "SapleCostControlUITests" */;
+			buildPhases = (
+				EE8D58DF202717F100E92684 /* Sources */,
+				EE8D58E0202717F100E92684 /* Frameworks */,
+				EE8D58E1202717F100E92684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE8D58E5202717F100E92684 /* PBXTargetDependency */,
+			);
+			name = SapleCostControlUITests;
+			productName = SapleCostControlUITests;
+			productReference = EE8D58E3202717F100E92684 /* SapleCostControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE8D58BC202717F000E92684 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = n_ozawa711;
+				TargetAttributes = {
+					EE8D58C3202717F000E92684 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EE8D58D7202717F100E92684 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE8D58C3202717F000E92684;
+					};
+					EE8D58E2202717F100E92684 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE8D58C3202717F000E92684;
+					};
+				};
+			};
+			buildConfigurationList = EE8D58BF202717F000E92684 /* Build configuration list for PBXProject "SapleCostControl" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE8D58BB202717F000E92684;
+			productRefGroup = EE8D58C5202717F000E92684 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE8D58C3202717F000E92684 /* SapleCostControl */,
+				EE8D58D7202717F100E92684 /* SapleCostControlTests */,
+				EE8D58E2202717F100E92684 /* SapleCostControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE8D58C2202717F000E92684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8D58D2202717F000E92684 /* LaunchScreen.storyboard in Resources */,
+				EE8D58CF202717F000E92684 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8D58D6202717F100E92684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8D58E1202717F100E92684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE8D58C0202717F000E92684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8D58F8202745E400E92684 /* TextPicker.swift in Sources */,
+				EE8D58FA2027460A00E92684 /* TextPickerDelegate.swift in Sources */,
+				EE8D58CA202717F000E92684 /* ViewController.swift in Sources */,
+				EE8D58C8202717F000E92684 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8D58D4202717F100E92684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8D58DD202717F100E92684 /* SapleCostControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8D58DF202717F100E92684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8D58E8202717F100E92684 /* SapleCostControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE8D58DA202717F100E92684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE8D58C3202717F000E92684 /* SapleCostControl */;
+			targetProxy = EE8D58D9202717F100E92684 /* PBXContainerItemProxy */;
+		};
+		EE8D58E5202717F100E92684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE8D58C3202717F000E92684 /* SapleCostControl */;
+			targetProxy = EE8D58E4202717F100E92684 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE8D58D0202717F000E92684 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8D58D1202717F000E92684 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE8D58EA202717F100E92684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE8D58EB202717F100E92684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE8D58ED202717F100E92684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55EG7583WN;
+				INFOPLIST_FILE = SapleCostControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozawa.sample.SapleCostControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE8D58EE202717F100E92684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55EG7583WN;
+				INFOPLIST_FILE = SapleCostControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozawa.sample.SapleCostControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE8D58F0202717F100E92684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55EG7583WN;
+				INFOPLIST_FILE = SapleCostControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozawa.sample.SapleCostControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SapleCostControl.app/SapleCostControl";
+			};
+			name = Debug;
+		};
+		EE8D58F1202717F100E92684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55EG7583WN;
+				INFOPLIST_FILE = SapleCostControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozawa.sample.SapleCostControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SapleCostControl.app/SapleCostControl";
+			};
+			name = Release;
+		};
+		EE8D58F3202717F100E92684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55EG7583WN;
+				INFOPLIST_FILE = SapleCostControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozawa.sample.SapleCostControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SapleCostControl;
+			};
+			name = Debug;
+		};
+		EE8D58F4202717F100E92684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55EG7583WN;
+				INFOPLIST_FILE = SapleCostControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozawa.sample.SapleCostControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SapleCostControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE8D58BF202717F000E92684 /* Build configuration list for PBXProject "SapleCostControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8D58EA202717F100E92684 /* Debug */,
+				EE8D58EB202717F100E92684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8D58EC202717F100E92684 /* Build configuration list for PBXNativeTarget "SapleCostControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8D58ED202717F100E92684 /* Debug */,
+				EE8D58EE202717F100E92684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8D58EF202717F100E92684 /* Build configuration list for PBXNativeTarget "SapleCostControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8D58F0202717F100E92684 /* Debug */,
+				EE8D58F1202717F100E92684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8D58F2202717F100E92684 /* Build configuration list for PBXNativeTarget "SapleCostControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8D58F3202717F100E92684 /* Debug */,
+				EE8D58F4202717F100E92684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE8D58BC202717F000E92684 /* Project object */;
+}
