@@ -1,0 +1,40 @@
+@startuml
+
+' 出力サイズを変更できる
+scale 500*800
+' 背景指定
+skinparam backgroundColor transparent
+
+
+' 再度思い出すための出力
+title <size:12> テスト練習 </size>
+
+start
+ if (num > 0) then
+: 出力1;
+elseif ( num > 1000) then
+:出力4;
+ else
+: 出力2;
+note right
+テスト
+end note
+endif
+
+:test;
+
+fork
+  :並行処理2-1;
+fork again
+  :並行処理2-2;
+end fork
+
+while (繰り返し判定?) is (ループ必要)
+  :処理7;
+  -> 文字列あり矢印;
+endwhile (ループ不要)
+
+
+stop
+
+@enduml
